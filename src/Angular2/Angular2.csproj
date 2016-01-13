@@ -26,7 +26,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <TypeScriptToolsVersion>1.6</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>1.7</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -106,12 +106,13 @@
     <Content Include="Components\tabs\tabExample.html" />
     <Content Include="Components\location\confirm.html" />
     <Content Include="Components\location\loading_spinner.gif" />
-    <Content Include="Components\location\redwarning.png" />
+    <Content Include="content\images\redwarning.png" />
     <Content Include="Components\location\register.html" />
     <Content Include="Components\location\thankyou.html" />
     <Content Include="Components\tabs\tab.html" />
     <Content Include="Components\tabs\tabs.html" />
     <Content Include="Components\todo-list\todo.html" />
+    <Content Include="content\images\loading_spinner.gif" />
     <Content Include="Global.asax" />
     <Content Include="Index.html" />
     <Content Include="lib\custom-require.js" />

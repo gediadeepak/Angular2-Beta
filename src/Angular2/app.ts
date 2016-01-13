@@ -16,7 +16,7 @@ import {TabControl} from './components/tabs/tabControl'
 import { Inject} from 'angular2/core';
 import {DynamicLoading} from './components/lazyLoading/dynamicLoading';
 
-declare var System: any;
+declare var System: any; 
 
 @Component(
     {

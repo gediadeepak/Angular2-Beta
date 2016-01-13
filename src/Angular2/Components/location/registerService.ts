@@ -12,13 +12,13 @@ export class RegisterService {
     saveRegistrationDetails(registerObj: Registration) {
         var headers = new Headers();
         headers.append('Content-Type', 'application/json');
-        var path = '/angular2/Api/Registration/SaveRegistrationDetails';
+        var path = '/angular2-beta/Api/Registration/SaveRegistrationDetails';
         return this.http.post(path, JSON.stringify(registerObj), { headers: headers });
     }
     getRegistrationDetails() {
         var headers = new Headers();
         headers.append('Content-Type', 'application/json');
-        var path = '/angular2/Api/registration/GetRegistrationDetails';
+        var path = '/angular2-beta/Api/registration/GetRegistrationDetails';
         return this.http.get(path);
     }
     logError(err) {
