@@ -1,5 +1,4 @@
-Project Documentation
-===================
+
 ##Angular2_Documentation.docx
 This document let you know about the New features available in Angular2 Beta version and also code walk through for sample project
 
